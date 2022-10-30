@@ -1,0 +1,9 @@
+server {
+        listen 443 default_server;
+        listen [::]:443 default_server;
+        root  /usr/local/ems/dist/;
+        charset utf-8;
+        location /api {
+                proxy_pass http://127.0.0.1:8000;
+        }
+}

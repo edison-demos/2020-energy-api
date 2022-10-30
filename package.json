@@ -1,0 +1,30 @@
+{
+  "name": "at-enegry-site",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eden-Sun/AT-enegry-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eden-Sun/AT-enegry-site/issues"
+  },
+  "homepage": "https://github.com/Eden-Sun/AT-enegry-site#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "connect-history-api-fallback": "^1.6.0",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "pg": "^8.2.1",
+    "sequelize": "^5.21.12",
+    "sequelize-cli": "^5.5.1"
+  }
+}
